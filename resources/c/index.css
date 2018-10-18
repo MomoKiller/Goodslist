@@ -36,11 +36,8 @@ html,body{
     height: 100px;
     overflow: hidden;
     background: url(../i/list_bg.png) no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 97px;
     position: relative;
-}
-.main ul.goods_list li:last-child{
-    border-bottom: none;
 }
 .main ul.goods_list li .img_wrap{
     height: 80px;
@@ -100,12 +97,14 @@ html,body{
 .main ul.goods_list li .goods_bottom{
     position: absolute;
     bottom: 0;
-    border-bottom: dashed 3px #666666;
     width: 93%;
     margin-left: 3.5%;
+    height: 3px;
+    background: url(../i/line.png) no-repeat;
+    background-size: 100% 3px;
 }
 .main ul.goods_list li:last-child .goods_bottom{
-    border-bottom: none;
+    background: none;
 }
 
 /* 弹框 */
